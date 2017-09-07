@@ -52,6 +52,10 @@ public:
     RomanNumber& operator*=(const int& rhs);
     RomanNumber& operator/=(const int& rhs);
     RomanNumber& operator%=(const int& rhs);
+    RomanNumber& operator++();
+    RomanNumber& operator++(int);
+    RomanNumber& operator--();
+    RomanNumber& operator--(int);
 };
 
 RomanNumber operator+(RomanNumber lhs, RomanNumber rhs);

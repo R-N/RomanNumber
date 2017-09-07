@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1504802611 source:c:\users\mojomacw7\documents\github\romannumber\main.cpp
+	<iostream>
+	"romannumber.hpp"
+
+1504790792 c:\users\mojomacw7\documents\github\romannumber\romannumber.hpp
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<cstring>
+
+1504790952 source:c:\users\mojomacw7\documents\github\romannumber\romannumber.cpp
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<cstring>
+	"romannumber.hpp"
+

@@ -155,6 +155,28 @@ RomanNumber& RomanNumber::operator%=(const int& rhs){
     return *this;
 }
 
+RomanNumber& RomanNumber::operator++(){
+    ++value;
+    return *this;
+}
+
+RomanNumber RomanNumber::operator++(int){
+    int val = value;
+    ++*this;
+    return RomanNumber(val);
+}
+
+RomanNumber& RomanNumber::operator--(){
+    --value;
+    return *this;
+}
+
+RomanNumber RomanNumber::operator--(int){
+    int val = value;
+    --*this;
+    return RomanNumber(val);
+}
+
 ostream& operator<<(ostream& os, RomanNumber num)
 {
     os << num.GetString();
