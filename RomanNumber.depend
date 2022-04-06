@@ -18,3 +18,22 @@
 	<cstring>
 	"romannumber.hpp"
 
+1649227193 source:d:\github\romannumber\main.cpp
+	<iostream>
+	"romannumber.hpp"
+
+1649227340 d:\github\romannumber\romannumber.hpp
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<cstring>
+
+1649227193 source:d:\github\romannumber\romannumber.cpp
+	<iostream>
+	<string>
+	<exception>
+	<stdexcept>
+	<cstring>
+	"romannumber.hpp"
+
